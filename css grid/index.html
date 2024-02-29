@@ -9,23 +9,44 @@
 <body>
     <h1>Hands-On Activity no.1</h1>
     <div class="grid">
-        <div><label for="num1">First Number:</label></div>
-        <div><input type="text" name="num1" id="num1" placeholder="Input First Number"></div>
-        <div><label for="num2">Second Number:</label></div>
-        <div><input type="text" name="num2" id="num2" placeholder="Input Second Number"></div>
+        <div class="num1"><label for="num1">First Number:</label></div>
+        <div class="num1"><input type="text" name="num1" id="num1" placeholder="Input First Number"></div>
+        <div class="num1"><label for="num2">Second Number:</label></div>
+        <div class="num1"><input type="text" name="num2" id="num2" placeholder="Input Second Number"></div>
         <div> </div>
         <div>
             <button onclick="concatenates()">Concatenate</button>
             <button onclick="modulo()">Modulo</button>
-            <button onclick="clearEntries()">Clear</button>
+            
         </div>
         <div></div>
-        <div><button onclick="Sum()">Sum</button></div>
-        <div>Modulo: <span id="mod"></span></div>
+        <div>
+            <button onclick="difference()">Difference</button>
+            <button onclick="Sum()">Sum</button>
+            <button onclick="product()">Product</button>
+            <button onclick="qoutient()">Qoutient</button>
+        </div>
         <div></div>
-        <div>Concatenate: <span id="con"></span></div>
-        <div></div>
-        <div>Sum: <span id="sum"></span></div>
+        <div>
+            <button onclick="clearEntries()">Clear</button>
+        </div>
+        <div class="num2">
+            Modulo: <br>
+            Concatenate:  <br>
+            Sum:  <br>
+            Difference: <br>
+            Product: <br>
+            Qoutient: <br>
+        </div>
+        <div class="num2">
+            <span id="mod"></span> <br>
+            <span id="con"></span> <br>
+            <span id="sum"></span> <br>
+            <span id="diff"></span> <br>
+            <span id="prod"></span> <br>
+            <span id="qout"></span>
+        </div>
+        
     </div>
 
     
