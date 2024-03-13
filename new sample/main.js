@@ -21,6 +21,7 @@ function insertNumber() {
     sum = 0
     for(let i=0; i<arr.length; i++) {
         sum += arr[i];
+        sumTxt.innerHTML = sum;
     } 
     average = sum / arr.length
     aveTxt.innerHTML = average;
@@ -44,4 +45,5 @@ function clearEntries() {
     arr = [];
     num2 = 0
     num1 = 0
+    sum=0
 }
